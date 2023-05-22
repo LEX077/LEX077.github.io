@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>PRSENTACION</title>
+    <title>PRESENTACION</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <div class="fondo_dev">
         <header>
-            <nav>
-                <ul>
-                    <li><a href="#about">acerca de mi</a></li>
+            <nav id="lista1">
+                <ul id="elemento">
+                    <li class="color"><a href="#about">acerca de mi</a></li>
                     <li><a href="#future">pespectivas para el futuro</a></li>
                     <li><a href="#search">encuentrame</a></li>    
                 </ul>
@@ -17,22 +17,22 @@
             <h1 class="blanco">
                 ROYCS BEGAZO
             </h1>
-            <h2>
+            <h2 class="verde">
                 desarrolador en progreso
             </h2>
         </header>
     </div>
+    <div >
     <article>
-        <p id="about">
-            programo,<br>
-            por lo tanto, existo.<br>
-            Soy un estudiante entusiasta que está fascinado por la informática y todo lo relacionado con ella desde mis primeros pasos en la escuela secundaria.<br> Durante los últimos años, he adquirido mucha experiencia en este campo debido a mi fuerte deseo de convertirme en un experto.<br> A día de hoy, estoy dando mis primeros pasos en el desarrollo web como estudiante.
-            "Para mí, el desarrollo web es más que programar.<br> Es como tener un lienzo en blanco y yo soy el artista que lo llena con los colores del código".<br>
+        <p class="box">
+            Soy un estudiante entusiasta que está fascinado por la informática<br> y todo lo relacionado con ella desde hace mucho Durante las últimas semanas,<br> 
+            he adquirido mucho conocimiento en este campo debido a mi fuerte deseo de<br> convertirme en un experto. A día de hoy, estoy dando mis primeros pasos en<br> el desarrollo  como estudiante.
+            "Para mí, el desarrollo  es más que programar.<br> es tener la capacidabr de crear todo lo que pueda imaginar".<br>
         </p>
-        <aside>
-            <img src="devperfil.png" height="300px">
-
-        </aside>
+        <p>
+            <img src="devperfil.png" height="300px"class="img" >
+        </p>
+    </div>   
     </article>
     <article>
         <h1 id="future">
@@ -40,15 +40,25 @@
         </h1>
         <p>
             En un futuro me gustaria desempeñarme en los siguientes ambitos:
-            <ul>
-                <li>desarrolador videojuegos</li>
-                <li>haking etico</li>
-                <li>tener un emprendimiento relacionado al desarrollo</li>
-            </ul>
-            <img src="hacking.jpg" height="300px">
-            <img src="game_dev.png" height="300px">
-            <img src="negocio_tech.jpg" height="300px">
+            <div >
+                <section class="container">
+                <img src="hacking.jpg" height="300px" >
+                <p>hacking etico</p>
+                </section>
+                <section class="container">
+                <img src="game_dev.png" height="300px" >
+                <p>desarrolador de videojuegos </p>
+                </section>
+                <section class="container2">
+                <img src="negocio_tech.jpg" height="300px">
+                <p>        tener un emprendimiento relacionado al desarrollo </p>
+                </section>
+            
+            </div>
+
+
         </p>
+
 
     </article>
     <div>

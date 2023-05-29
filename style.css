@@ -91,6 +91,8 @@ p{
 .grid{
     display:grid;
     grid-template-columns: 33% 33% 33%;
+    padding-left: 1cm;
+    text-align: center;
 }
 .grid div:hover{
     transform: scale(1.1);
@@ -99,11 +101,28 @@ p{
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
     color: rgba(0, 255, 76, 0.839);
+    
 }
 .grid p{
     text-align: center;
 }
+.grid img:hover{
+    border: 3px solid rgb(7, 235, 155);
+}
+.div1 {
+    position: relative;
+}
 
+.div1 .div2 {
+    position: absolute;  
+    left: 45.3%;
+    opacity: 0;
+    transition: .5s;
+}
+
+.div1:hover .div2 {
+    opacity: 1;
+}
 
 
 

@@ -1,0 +1,168 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    
+}
+@font-face{
+    font-family: "silk";
+    src: url(font/slkscrb-webfont.woff);
+}
+
+.header .nav-link{
+    list-style:none;
+}
+.header .nav-link li{
+    display: inline-block;
+    padding:20px 20px ;
+    
+}
+.header .nav-link li:hover{
+    transform:scale(1.1);
+}
+.header .nav-link a{
+    font-size: 24px;
+    color: rgb(202, 23, 23);
+    text-decoration:none;
+    font-family: "silk" 
+}
+.header .nav-link li a:hover{
+    color: rgba(20, 89, 49, 0.886);
+}
+
+.body{
+    margin-top: 0%;
+    margin: 0%;
+    padding: 0%;
+    margin-bottom: 0%;
+    min-height: 100vh;
+    background-color: black;
+}
+
+
+.box{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 2fr;
+
+    
+}
+.subtitulo{
+    grid-column: 2/4;
+    text-align: center;
+    color: rgb(238, 54, 8);
+    font-family: "silk";
+}
+.blanco{
+    color: white;
+    font-size: 80px;
+    margin: 0%;
+    text-align: center;
+    font-family: "silk"
+}
+.blur{
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(2px);
+    grid-column: 2/4;
+}
+
+
+.article p{
+    font-family: "silk";
+    font-size: 40px;
+    color: white;
+    margin: 50px;
+    text-align:center;
+
+}
+
+.fondo_dev{
+    background-image: url(gif/code.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+    height: 500px;
+    width: 100%;
+    background-position: 30% 3%;
+    flex:none;
+    
+}
+
+    
+
+
+
+.box{
+    height: 100px;
+    width: 70%;
+    padding-top: 100px;
+    padding-left: 50px;
+    text-align: justify;
+    
+    font-size: 1.9rem;
+    
+}
+
+
+.foot{
+    margin-top:50px;
+    
+}
+
+.text{
+    font-family: "silk";
+    font-size: 20px;
+    color: white;
+    
+    
+}
+
+
+
+.redes{
+    text-align: center;
+    
+    
+    
+
+}
+
+.footer{
+    font-family: "silk";
+    font-size: 20px;
+    color: white;
+    text-align: end;
+    
+}
+
+.parpadea {
+    
+    animation-name: parpadeo;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+    -webkit-animation-name:parpadeo;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@-moz-keyframes parpadeo{  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes parpadeo {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes parpadeo {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+

@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: "role";
+    src: url(font/CriticalRolePlay-mLLjG.ttf);
+}
+@font-face {
+    font-family:"dreams";
+    src: url(font/DreamsAdventureDemo-Wj9Y.ttf);
+}
+@font-face {
+    font-family:"breath";
+    src: url(font/BreatheFireIi-2z9W.ttf);
+}
+@font-face {
+    font-family: "dark";
+    src: url(font/OptimusPrincepsSemiBold.ttf);
+}
+.header{
+    display:flex;
+    justify-content: flex-end;
+    align-items:center;
+    height:83px;
+    padding:5px 10%;
+
+}
+.header .nav-link{
+    list-style:none;
+    
+
+}
+.fondo{
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(1px);
+}
+.header .nav-link li{
+    display: inline-block;
+    padding:0 20px ;
+}
+.header .nav-link li:hover{
+    transform:scale(1.1);
+}
+.header .nav-link a{
+    font-size:30px;
+    color: rgb(67, 27, 27);
+    text-decoration:none;
+    font-family:"dreams";
+
+}
+.header .nav-link li a:hover{
+    color: rgb(89, 3, 3);
+}
+
+.subtitulo{
+    font-family:"role";
+    
+    color: rgba(161, 155, 153, 0.906);
+    font-size: 60px;
+    text-align: center;
+
+}
+.subtitulo2 {
+    font-size:60px;
+    color: rgb(255, 255, 255);
+    text-decoration:none;
+    font-family:"breath";
+    padding-top: 50px;
+    
+    
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-left: 1cm;
+    text-align: center;
+    gap: 10px;
+    padding-top: 5%;
+    
+}
+
+
+
+.grid p{
+    text-align: center;
+    font-size: 30px;
+    font-family:"dark";
+    color: rgba(254, 220, 220, 0.906);
+    font-weight: bolder;
+}
+.grid img:hover{
+    border: 10px groove rgb(10, 154, 211) rgb(7, 76, 95) ;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+}
+.elemento3>img{
+    padding-right: 50px;
+
+}
+.grid2{
+    display:grid;
+    grid-template-columns:33% 33% 33%;
+    text-align: center;
+    
+
+}
+
+.redes{
+    display: grid;
+    text-align: center;
+    padding-top: 200px;
+    
+}
+.back{
+    background-image:url(gif/fondo.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.foot{
+    font-family:"role";
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.906);
+    
+    
+}
+.señal{
+    font-family:"role";
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.906);
+    margin-left: 100px;
+}

@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: "steam";
+    src: url(font/Valorax-lg25V.otf);
+}
+@font-face {
+    font-family:"glith";
+    src: url(font/GlitchGoblin-2O87v.ttf);
+}
+@font-face {
+    font-family:"cyber";
+    src: url(font/Bazer-K7vpp.ttf);
+}
+.header{
+    display:flex;
+    justify-content: flex-end;
+    align-items:center;
+    height:83px;
+    padding:5px 10%;
+
+}
+.header .nav-link{
+    list-style:none;
+    
+
+}
+.fondo{
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(1px);
+}
+.header .nav-link li{
+    display: inline-block;
+    padding:0 20px ;
+}
+.header .nav-link li:hover{
+    transform:scale(1.1);
+}
+.header .nav-link a{
+    font-size:30px;
+    color: rgb(233, 26, 74);
+    text-decoration:none;
+    font-family:"cyber";
+
+}
+.header .nav-link li a:hover{
+    color: rgb(227, 85, 109);
+}
+.borde{
+    border:10px groove;
+    border-color: rgb(211, 10, 114) rgb(95, 7, 40);
+    backdrop-filter:blur(10);
+}
+.subtitulo{
+    font-family:"glith";
+    font-size: 20px;
+    color: rgb(6, 235, 247, 0.906);
+    font-size: 40px;
+    text-align: center;
+
+}
+.subtitulo2 {
+    font-size:30px;
+    color: rgb(197, 133, 3);
+    text-decoration:none;
+    font-family:"steam";
+    padding-top: 50px;
+    
+    
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-left: 1cm;
+    text-align: center;
+    gap: 20px;
+    padding-top: 5%;
+    
+}
+
+
+
+.grid p{
+    text-align: center;
+    font-size: 30px;
+    font-family:"steam";
+    color: rgba(242, 242, 242, 0.906);
+}
+.grid img:hover{
+    border: 10px groove rgb(211, 10, 114) rgb(95, 7, 40) ;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+}
+.elemento3>img{
+    padding-right: 50px;
+
+}
+.grid2{
+    display:grid;
+    grid-template-columns:33% 33% 33%;
+    text-align: center;
+    
+
+}
+
+.redes{
+    display: grid;
+    text-align: center;
+    padding-top: 200px;
+    
+}
+.back{
+    background-image: url(gif/future.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.foot{
+    font-family:"steam";
+    font-size: 20px;
+    color: rgba(211, 211, 9, 0.906);
+    background-color: black;
+    height:50px;
+    
+}
+

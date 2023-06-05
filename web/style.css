@@ -56,6 +56,18 @@
     color: rgb(238, 54, 8);
     font-family: "silk";
 }
+.subtitulo:hover{
+    animation-name: parpadeo;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+    -webkit-animation-name:parpadeo;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+}
+
 .blanco{
     color: white;
     font-size: 80px;
@@ -138,7 +150,7 @@
     
 }
 
-.parpadea {
+.parpadea{
     
     animation-name: parpadeo;
     animation-duration: 1s;

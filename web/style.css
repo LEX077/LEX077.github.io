@@ -143,13 +143,19 @@
 }
 
 .footer{
-    font-family: "silk";
-    font-size: 20px;
-    color: white;
-    text-align: end;
+    
+    font-size: 10px;
+    
+    text-align: center;
     
 }
-
+.bot{
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: "silk";
+}
 .parpadea{
     
     animation-name: parpadeo;
@@ -179,5 +185,105 @@
     0% { opacity: 1.0; }
     50% { opacity: 0.0; }
     100% { opacity: 1.0; }
+}
+
+.modal {
+    display: none; /* Inicialmente oculto */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+
+    background-image: url(lex.png) /* Fondo oscuro semitransparente */
+}
+.modal-content {
+    /*background-image: url(lex.png);*/
+    background-size: cover;
+    margin: 10% auto;
+    padding: 20px;
+    font-family: "silk";
+    width: 50%;
+}
+.close {
+    color: #000000;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.from{
+    display: flex;
+    font-family: "silk";
+    height: 660px;
+    width: 550px;
+    box-shadow: 0 0 20px #fffbfb74;
+    margin: 200px;
+    margin-top: 150px;
+    border-radius: 25px;
+    
+}
+
+
+
+.containeru{
+    display: flex;
+    
+    height: 660px;
+    width: 550px;
+    box-shadow: 0 0 20px #2b1e1e;
+    margin: 200px;
+    margin-top: 150px;
+    border-radius: 25px;
+    
+}
+
+form{
+    padding: 30px 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: "silk";
+}
+
+.form h2{
+    text-align: center;
+    font-size: 45px;
+    font-family:"silk";
+    color: #820c0c;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+label{
+    font-size: 30px;
+    font-family: "silk";
+    color: #e1cb08;
+    margin-bottom: 15px;
+}
+.boxy{
+    color: #000000;
+    border: 0;
+    background-color: #ffffffa6;
+    padding: 15px;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    outline: none;
+    text-align: left;
+    font-family: "silk";
+}
+
+.submit{
+    background-color: #9fdcfa;
+    border: 0;
+    padding: 15px;
+    color: #0b66dd;
+    font-size: 15px;
+    font-family: "silk";
+    border-radius: 25px;
+    width: 250px;
+    margin-top: 25px;
+    box-shadow: 0 0 20px rgba(201, 199, 259, 0.5);
 }
 

@@ -72,10 +72,7 @@
     filter: grayscale(0);
     -webkit-filter: grayscale(0);
 }
-.subtitulo2:hover{
-    filter: grayscale(1);
-    -webkit-filter: grayscale(1);
-}
+
 
 .grid{
     display:grid;
@@ -108,6 +105,16 @@
     -o-border-radius: 10%;
     filter: grayscale(0);
     -webkit-filter: grayscale(0);
+    
+    animation-name: parpadeo;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+    -webkit-animation-name:parpadeo;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
 }
 .elemento3>img{
     padding-right: 50px;
@@ -145,3 +152,34 @@
     color: rgba(0, 0, 0, 0.906);
     margin-left: 100px;
 }
+.parpadea {
+    
+    animation-name: parpadeo;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+    -webkit-animation-name:parpadeo;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@-moz-keyframes parpadeo{  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes parpadeo {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes parpadeo {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+

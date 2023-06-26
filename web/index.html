@@ -4,6 +4,7 @@
     <link rel="icon" href="icono/icon.ico">
     <title>PRESENTACION</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="java.js"></script>
 </head>
 <body class="body">
         <div class="fondo_dev">
@@ -32,7 +33,30 @@
                 <article class="article">
                     <p>Soy un estudiante de desarrollo de software desde muy joven me intereso el mundo de la tecnologia,<br> mi interes comenzo con los videojuegos, luego conoci el mundo del desarrollo y empece a interesarme en el desarrollo de software</p>
                 </article>
+    
+    
             </div>    
+    
+            <div id="modal" class="modal">
+                <!-- Contenido del formulario -->
+                <div class="modal-content">
+                  <span class="close" onclick="cerrarFormulario()">&times;</span>
+                  
+                  <form>
+                    <label for="name">NOMBRE</label> 
+                    <input type="text" name="name" id="name" class="boxy"> 
+            
+                    <label for="email">EMAIL</label> 
+                    <input type="email" name="email" id="email" class="boxy"> 
+                        
+                    <label for="coments">MENSAJE</label> 
+                    <textarea name="coments" class="boxy" id="coments" cols="30" rows="5"></textarea> 
+            
+                    <input type="submit" value="Enviar" class="submit">
+                  </form>
+                </div>
+              </div>
+
     <footer>
         <h3>
             buscame en:
@@ -46,8 +70,8 @@
                 <div ><h4 class="text">POLITICA DE PRIVACIDAD|TERMINOS DE USO </h4></div>
             </div>   
         </div>
-    <div><img src="gif/loading.gif" height="100"></div>   
-    <div class="parpadea footer">SKIP>>></div>
+    <div><img src="gif/loading.gif" height="100"><div class="parpadea footer"><button onclick="abrirFormulario()" class="bot">CONTACTAME</button></div></div>   
+   
 
     </footer>
 </div>
